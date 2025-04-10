@@ -1,35 +1,4 @@
 # java-basico
-classDiagram
-    class iPhone {
-        +ligar(numero: String)
-        +atender()
-        +iniciarCorreioVoz()
-        +tocar()
-        +pausar()
-        +selecionarMusica(musica: String)
-        +exibirPagina(url: String)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
+# Diagrama de Classe do iPhone
 
-    class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(musica: String)
-    }
-
-    class AparelhoTelefonico {
-        +ligar(numero: String)
-        +atender()
-        +iniciarCorreioVoz()
-    }
-
-    class NavegadorInternet {
-        +exibirPagina(url: String)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    iPhone --|> AparelhoTelefonico : herda
-    iPhone --|> ReprodutorMusical : herda
-    iPhone --|> NavegadorInternet : herda
+![Diagrama de Classe do iPhone](mermaid-diagram-2025-04-10-022744.svg)
